@@ -1,0 +1,9 @@
+html 
+    head 
+        title listagem de produtos
+    body 
+        h1 listagem de produtos
+        a(href="/products/form") formulario de produtos 
+        ul 
+            each product in products
+                li= product.name
